@@ -1,3 +1,4 @@
+<?php
 $db = new mysqli('54.246.36.3', 'scalr', 'nmK4WFmDID8C7cEmcAMj', 'demo');
 
 if($db->connect_errno > 0){
@@ -15,3 +16,4 @@ if(!$result = $db->query($sql)){
 while($row = $result->fetch_assoc()){
     echo $row['username'] . '<br />';
 }
+?>
