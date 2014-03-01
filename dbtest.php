@@ -1,5 +1,5 @@
 <?php
-$db = new mysqli('54.246.36.3', 'scalr', 'nmK4WFmDID8C7cEmcAMj', 'demo');
+$db = new mysqli('10.73.192.39', 'scalr', 'nmK4WFmDID8C7cEmcAMj', 'demo');
 
 if($db->connect_errno > 0){
     die('Unable to connect to database [' . $db->connect_error . ']');
